@@ -1,0 +1,518 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SuppBridge - Professional Health Supplement Supplement Supply Supply Chain Solutions</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#0F52BA', // Professional blue
+                        secondary: '#228B22', // Health green
+                        accent: '#FF9500', // Highlight orange
+                        neutral: '#F5F5F5', // Light background
+                        dark: '#1A1A1A'    // Dark text
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', 'sans-serif'],
+                        display: ['Montserrat', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+            .content-auto {
+                content-visibility: auto;
+            }
+            .text-shadow {
+                text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            }
+            .transition-custom {
+                transition: all 0.3s ease-in-out;
+            }
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;family=Montserrat:wght@500;600;700;800&amp;display=swap" rel="stylesheet">
+</head>
+<body class="font-sans text-dark bg-white">
+    <!-- Header with Navigation -->
+    <header id="navbar" class="fixed w-full top-0 z-50 transition-all duration-300 bg-white/90 backdrop-blur-sm shadow-sm">
+        <div class="container mx-auto px-4 md:px-6 lg:px-8">
+            <div class="flex items-center justify-between py-4">
+                <a href="#" class="flex items-center space-x-2">
+                    <span class="text-primary text-2xl font-display font-bold">Supp<span class="text-secondary">Bridge</span></span>
+                </a>
+                
+                <!-- Desktop Navigation -->
+                <nav class="hidden md:flex items-center space-x-8">
+                    <a href="#home" class="text-dark hover:text-primary font-medium transition-custom">Home</a>
+                    <a href="#about-jun" class="text-primary font-medium transition-custom">Team</a>
+                    <a href="#services" class="text-dark hover:text-primary font-medium transition-custom">Services</a>
+                    <a href="#about" class="text-dark hover:text-primary font-medium transition-custom">About Us</a>
+                    <a href="#process" class="text-dark hover:text-primary font-medium transition-custom"></a>
+                    <a href="#contact" class="bg-primary hover:bg-primary/90 text-white px-5 py-2 rounded-md font-medium transition-custom">Contact Us</a>
+                </nav>
+                
+                <!-- Mobile menu button -->
+                <button id="menu-toggle" class="md:hidden text-dark focus:outline-none">
+                    <i class="fa fa-bars text-2xl"></i>
+                </button>
+            </div>
+        </div>
+        
+        <!-- Mobile Navigation -->
+        <div id="mobile-menu" class="md:hidden hidden bg-white shadow-lg absolute w-full">
+            <div class="container mx-auto px-4 py-3 flex flex-col space-y-3">
+                <a href="#home" class="text-dark hover:text-primary font-medium py-2 transition-custom">Home</a>
+                <a href="#about-jun" class="text-primary font-medium py-2 transition-custom">专业团队</a>
+                <a href="#services" class="text-dark hover:text-primary font-medium py-2 transition-custom">Services</a>
+                <a href="#about" class="text-dark hover:text-primary font-medium py-2 transition-custom">About Us</a>
+                <a href="#process" class="text-dark hover:text-primary font-medium py-2 transition-custom">Process</a>
+                <a href="#contact" class="bg-primary hover:bg-primary/90 text-white px-5 py-2 rounded-md font-medium text-center transition-custom">Contact Us</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="pt-28 pb-20 md:pt-36 md:pb-28 bg-gradient-to-br from-primary/5 to-secondary/5">
+        <div class="container mx-auto px-4 md:px-6 lg:px-8">
+            <div class="flex flex-col lg:flex-row items-center">
+                <div class="lg:w-1/2 mb-10 lg:mb-0">
+                    <h1 class="text-[clamp(2.5rem,5vw,4rem)] font-display font-bold leading-tight text-dark mb-6">
+                        Bridging the Gap in <span class="text-primary">Health Supplement</span> Supply Chains
+                    </h1>
+                    <p class="text-lg md:text-xl text-gray-600 mb-8 max-w-xl">
+                        18 years of industry expertise in developing, formulating, and supplying high-quality health supplements from concept to market.
+                    </p>
+                    <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+                        <a href="#contact" class="bg-primary hover:bg-primary/90 text-white px-8 py-3 rounded-md font-medium text-center transition-custom shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+                            Get Started
+                        </a>
+                        <a href="#about-jun" class="border-2 border-primary text-primary hover:bg-primary/5 px-8 py-3 rounded-md font-medium text-center transition-custom">
+                            Meet Our Team
+                        </a>
+                    </div>
+                    <div class="mt-12 flex items-center space-x-6">
+                        <div class="flex -space-x-2">
+                            <img src="https://p3-flow-imagex-sign.byteimg.com/tos-cn-i-a9rns2rl98/rc/pc/code_assistant/4d71af9b489b4e3e86936b3b92ab8084~tplv-a9rns2rl98-image.image?rcl=20250812223355A68E8217953434C06A48&amp;rk3s=8e244e95&amp;rrcfp=2609e108&amp;x-expires=1755614039&amp;x-signature=6CSxLsjdnbPjUsagd4X6me%2FPt6I%3D" alt="Client" class="w-10 h-10 rounded-full border-2 border-white">
+                            <img src="https://p3-flow-imagex-sign.byteimg.com/tos-cn-i-a9rns2rl98/rc/pc/code_assistant/04ea7bec7be44baa9632e65b64b20b4e~tplv-a9rns2rl98-image.image?rcl=202508122234332860A1FE0F7DEBCDCBCD&amp;rk3s=8e244e95&amp;rrcfp=2609e108&amp;x-expires=1755614078&amp;x-signature=7W8AGkKSwctwx%2BOzW4IleUU0FSw%3D" alt="Client" class="w-10 h-10 rounded-full border-2 border-white">
+                            <img src="https://p3-flow-imagex-sign.byteimg.com/tos-cn-i-a9rns2rl98/rc/pc/code_assistant/25d044113ce3436e89dce883882874c6~tplv-a9rns2rl98-image.image?rcl=2025081222353669B19720CB44A8B96FE7&amp;rk3s=8e244e95&amp;rrcfp=2609e108&amp;x-expires=1755614140&amp;x-signature=5IeZzVNm6UfV11xHbSj2%2FdIY4Xg%3D" alt="Client" class="w-10 h-10 rounded-full border-2 border-white">
+                            <div class="w-10 h-10 rounded-full bg-primary/10 text-primary flex items-center justify-center border-2 border-white text-xs font-bold">
+                                50+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex items-center text-yellow-400 mb-1">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <p class="text-sm text-gray-600">Trusted by 50+ international brands</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/2 relative">
+                    <div class="relative z-10 rounded-xl overflow-hidden shadow-2xl transform hover:scale-[1.02] transition-custom">
+                        <img src="https://p9-flow-imagex-sign.byteimg.com/tos-cn-i-a9rns2rl98/rc/pc/code_assistant/ca3c01ca5f3747d3a86a15f422f7fb33~tplv-a9rns2rl98-image.image?rcl=20250812224945608549CE14CAE9BED3F0&amp;rk3s=8e244e95&amp;rrcfp=2609e108&amp;x-expires=1755614989&amp;x-signature=nMDGwSXBLLVfZxca6tFswmK2F4A%3D" alt="Health supplement supply chain" class="w-full h-auto">
+                    </div>
+                    <div class="absolute -bottom-6 -left-6 w-40 h-40 bg-secondary/10 rounded-full z-0"></div>
+                    <div class="absolute -top-6 -right-6 w-40 h-40 bg-primary/10 rounded-full z-0"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Founder Introduction Section -->
+    <section id="about-jun" class="py-20 bg-white">
+        <div class="container mx-auto px-4 md:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-[clamp(1.8rem,3vw,2.5rem)] font-display font-bold mb-4">Our Founder</h2>
+                <p class="text-gray-600 text-lg">Meet Jun, whose vision and expertise form the foundation of our supply chain solutions.</p>
+            </div>
+            
+            <div class="flex flex-col lg:flex-row items-center gap-12">
+                <div class="lg:w-2/5 relative">
+                    <div class="relative z-10 rounded-xl overflow-hidden shadow-xl">
+                        <img src="https://p3-flow-imagex-sign.byteimg.com/tos-cn-i-a9rns2rl98/rc/pc/code_assistant/dae79ea33cdd4ab3a59a46d85baf36ef~tplv-a9rns2rl98-image.image?rcl=202508121816478D910839AB379E60F02D&amp;rk3s=8e244e95&amp;rrcfp=e75484ac&amp;x-expires=1755598608&amp;x-signature=c89o6hxCNi9lc%2FY7wiq21LPIKbE%3D" alt="Jun - Founder and Supply Chain Expert" class="w-full h-auto object-cover max-w-md mx-auto">
+                    </div>
+                    <div class="absolute -bottom-8 -left-8 w-32 h-32 bg-primary/10 rounded-full z-0"></div>
+                    <div class="absolute -top-8 -right-8 w-32 h-32 bg-secondary/10 rounded-full z-0"></div>
+                </div>
+                
+                <div class="lg:w-3/5">
+                    <h3 class="text-2xl md:text-3xl font-display font-bold mb-6 text-primary">Jun Lee - Founder&nbsp;</h3>
+                    <p class="text-gray-600 text-lg mb-6">With 18 years of dedicated experience in the health supplement industry, Jun founded SuppBridge to address the critical gaps in global supply chains. Based in Changsha, his expertise spans the entire product lifecycle from concept development to market distribution.</p>
+                    
+                    <div class="space-y-6 mb-8">
+                        <div class="flex items-start">
+                            <div class="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center mr-4 mt-1 flex-shrink-0">
+                                <i class="fa fa-briefcase text-primary"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-lg mb-1">Industry Leadership</h4>
+                                <p class="text-gray-600">Jun has held senior positions as Supply Chain Director and Marketing Director for multiple international health supplement brands, gaining invaluable insights into global market dynamics and operational challenges.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center mr-4 mt-1 flex-shrink-0">
+                                <i class="fa fa-lightbulb-o text-primary"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-lg mb-1">Entrepreneurial Vision</h4>
+                                <p class="text-gray-600">His e-commerce entrepreneurship journey equipped him with the ability to identify market opportunities and develop innovative business models that bridge production and consumer demands.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center mr-4 mt-1 flex-shrink-0">
+                                <i class="fa fa-globe text-primary"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-lg mb-1">Global Network Builder</h4>
+                                <p class="text-gray-600">Jun has cultivated an extensive network of reliable supply chain resources spanning China, Australia, New Zealand, the United States, and Europe, including raw material suppliers, manufacturing facilities with diverse formulation capabilities, third-party testing laboratories, and international logistics teams.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center mr-4 mt-1 flex-shrink-0">
+                                <i class="fa fa-puzzle-piece text-primary"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-lg mb-1">Problem-Solving Expertise</h4>
+                                <p class="text-gray-600">Jun's greatest strength lies in developing flexible solutions to complex challenges, whether navigating regulatory requirements, optimizing costs without compromising quality, or creating alternative supply routes during disruptions.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <a href="#contact" class="inline-block bg-primary hover:bg-primary/90 text-white px-8 py-3 rounded-md font-medium transition-custom shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+                        Connect with Jun
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-neutral">
+        <div class="container mx-auto px-4 md:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-[clamp(1.8rem,3vw,2.5rem)] font-display font-bold mb-4">Our Comprehensive Services</h2>
+                <p class="text-gray-600 text-lg">Leveraging our global network to provide end-to-end solutions for health supplement brands.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Service 1 -->
+                <div class="bg-white rounded-xl p-8 shadow-md hover:shadow-xl transition-custom transform hover:-translate-y-1">
+                    <div class="w-14 h-14 bg-primary/10 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fa fa-flask text-primary text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Product Development</h3>
+                    <p class="text-gray-600 mb-4">From initial concept to final formulation, we develop high-quality supplements tailored to your market needs.</p>
+                </div>
+                
+                <!-- Service 2 -->
+                <div class="bg-white rounded-xl p-8 shadow-md hover:shadow-xl transition-custom transform hover:-translate-y-1">
+                    <div class="w-14 h-14 bg-primary/10 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fa fa-cubes text-primary text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Global Sourcing</h3>
+                    <p class="text-gray-600 mb-4">Access to high-quality raw materials from trusted suppliers worldwide at competitive prices.</p>
+                </div>
+                
+                <!-- Service 3 -->
+                <div class="bg-white rounded-xl p-8 shadow-md hover:shadow-xl transition-custom transform hover:-translate-y-1">
+                    <div class="w-14 h-14 bg-primary/10 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fa fa-industry text-primary text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Manufacturing Coordination</h3>
+                    <p class="text-gray-600 mb-4">Connecting you with production facilities that match your quality and volume requirements.</p>
+                </div>
+                
+                <!-- Service 4 -->
+                <div class="bg-white rounded-xl p-8 shadow-md hover:shadow-xl transition-custom transform hover:-translate-y-1">
+                    <div class="w-14 h-14 bg-primary/10 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fa fa-certificate text-primary text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Quality Testing</h3>
+                    <p class="text-gray-600 mb-4">Third-party laboratory testing to ensure compliance with international standards and regulations.</p>
+                </div>
+                
+                <!-- Service 5 -->
+                <div class="bg-white rounded-xl p-8 shadow-md hover:shadow-xl transition-custom transform hover:-translate-y-1">
+                    <div class="w-14 h-14 bg-primary/10 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fa fa-truck text-primary text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Logistics Management</h3>
+                    <p class="text-gray-600 mb-4">Streamlined international shipping and distribution to get your products to market efficiently.</p>
+                </div>
+                
+                <!-- Service 6 -->
+                <div class="bg-white rounded-xl p-8 shadow-md hover:shadow-xl transition-custom transform hover:-translate-y-1">
+                    <div class="w-14 h-14 bg-primary/10 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fa fa-line-chart text-primary text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Market Strategy</h3>
+                    <p class="text-gray-600 mb-4">Insights and guidance to navigate market entry and positioning for your health supplement products.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="container mx-auto px-4 md:px-6 lg:px-8">
+            <div class="flex flex-col lg:flex-row items-center gap-12">
+                <div class="lg:w-1/2 relative">
+                    <div class="relative z-10 rounded-xl overflow-hidden shadow-xl">
+                        <img src="https://p3-flow-imagex-sign.byteimg.com/tos-cn-i-a9rns2rl98/rc/pc/code_assistant/1c98cfb62c92495e9860a34128591a71~tplv-a9rns2rl98-image.image?rcl=20250812224903D546BF648014A579C23C&amp;rk3s=8e244e95&amp;rrcfp=2609e108&amp;x-expires=1755614947&amp;x-signature=ZwQjZbUThsFbQKn%2FAQOR3hF%2FEVU%3D" alt="Global supply chain network" class="w-full h-auto">
+                    </div>
+                    <div class="absolute -bottom-8 -right-8 bg-white p-6 rounded-lg shadow-lg z-20 max-w-xs">
+                        <div class="flex items-center mb-2">
+                            <div class="text-accent mr-2">
+                                <i class="fa fa-globe text-2xl"></i>
+                            </div>
+                            <h4 class="font-bold">Global Network</h4>
+                        </div>
+                        <p class="text-gray-600 text-sm">Strategic partnerships across China, Australia, New Zealand, USA and Europe.</p>
+                    </div>
+                </div>
+                
+                <div class="lg:w-1/2">
+                    <h2 class="text-[clamp(1.8rem,3vw,2.5rem)] font-display font-bold mb-6">About SuppBridge</h2>
+                    <p class="text-gray-600 text-lg mb-6">Founded by Jun, SuppBridge was created to address the critical challenges in the global health supplement supply chain. Our strength lies in our extensive network and flexible approach to problem-solving.</p>
+                    
+                    <div class="space-y-6 mb-8">
+                        <div class="flex items-start">
+                            <div class="w-10 h-10 bg-secondary/10 rounded-full flex items-center justify-center mr-4 mt-1 flex-shrink-0">
+                                <i class="fa fa-handshake-o text-secondary"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-lg mb-1">Our Global Network</h3>
+                                <p class="text-gray-600">We maintain reliable supply chain resources across China, Australia, New Zealand, the United States, and Europe. This includes raw material suppliers, manufacturing facilities with diverse formulation capabilities, third-party testing laboratories, and international logistics teams.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="w-10 h-10 bg-secondary/10 rounded-full flex items-center justify-center mr-4 mt-1 flex-shrink-0">
+                                <i class="fa fa-balance-scale text-secondary"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-lg mb-1">Our Philosophy</h3>
+                                <p class="text-gray-600">We believe in building long-term partnerships based on trust, transparency, and results. Our approach combines global reach with local expertise to create supply chain solutions that adapt to your specific needs.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="w-10 h-10 bg-secondary/10 rounded-full flex items-center justify-center mr-4 mt-1 flex-shrink-0">
+                                <i class="fa fa-rocket text-secondary"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-lg mb-1">Our Mission</h3>
+                                <p class="text-gray-600">To simplify the complexities of global health supplement supply chains, enabling our clients to focus on what they do best – creating products that improve people's health and well-being.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gradient-to-br from-primary/5 to-secondary/5">
+        <div class="container mx-auto px-4 md:px-6 lg:px-8">
+            <div class="flex flex-col lg:flex-row gap-12">
+                <div class="lg:w-1/2">
+                    <h2 class="text-[clamp(1.8rem,3vw,2.5rem)] font-display font-bold mb-6">Get In Touch</h2>
+                    <p class="text-gray-600 text-lg mb-8">Ready to streamline your supplement supply chain? Contact us to discuss how our global network and expertise can benefit your business.</p>
+                    
+                    <div class="space-y-6 mb-8">
+                        <div class="flex items-start">
+                            <div class="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center mr-4 mt-1 flex-shrink-0">
+                                <i class="fa fa-envelope text-primary"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-lg mb-1">Email Us</h3>
+                                <p class="text-gray-600">jun@suppbridge.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center mr-4 mt-1 flex-shrink-0">
+                                <i class="fa fa-whatsapp text-green-500"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-lg mb-1">WhatsApp</h3>
+                                <p class="text-gray-600">+86 185 7310 3006</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center mr-4 mt-1 flex-shrink-0">
+                                <i class="fa fa-map-marker text-primary"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-lg mb-1">Location</h3>
+                                <p class="text-gray-600">Changsha, China</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="lg:w-1/2">
+                    <form id="contact-form" action="/submit-form" method="POST" class="bg-white p-8 rounded-xl shadow-lg">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                            <div>
+                                <label for="name" class="block text-gray-700 font-medium mb-2">Your Name</label>
+                                <input type="text" id="name" name="name" class="w-full px-4 py-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary transition-custom" placeholder="John Doe">
+                            </div>
+                            <div>
+                                <label for="email" class="block text-gray-700 font-medium mb-2">Email Address</label>
+                                <input type="email" id="email" name="email" class="w-full px-4 py-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary transition-custom" placeholder="john@example.com">
+                            </div>
+                        </div>
+                        
+                        <div class="mb-6">
+                            <label for="company" class="block text-gray-700 font-medium mb-2">Company Name</label>
+                            <input type="text" id="company" name="company" class="w-full px-4 py-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary transition-custom" placeholder="Your company">
+                        </div>
+                        
+                        <div class="mb-6">
+                            <label for="message" class="block text-gray-700 font-medium mb-2">Describe your requirements</label>
+                            <textarea id="message" name="message" rows="5" class="w-full px-4 py-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary transition-custom" placeholder="Tell us about your project..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="w-full bg-primary hover:bg-primary/90 text-white px-6 py-3 rounded-md font-medium transition-custom shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-12">
+        <div class="container mx-auto px-4 md:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+                <div>
+                    <a href="#" class="inline-block mb-6">
+                        <span class="text-white text-2xl font-display font-bold">Supp<span class="text-secondary">Bridge</span></span>
+                    </a>
+                    <p class="text-gray-400 mb-6">Bridging the gap in global health supplement supply chains with flexible solutions.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-primary transition-custom">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-primary transition-custom">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-primary transition-custom">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-bold mb-6">Services</h3>
+                    <ul class="space-y-3">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-custom">Product Development</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-custom">Global Sourcing</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-custom">Manufacturing</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-custom">Quality Testing</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition-custom">Logistics</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-bold mb-6">Quick Links</h3>
+                    <ul class="space-y-3">
+                        <li><a href="#home" class="text-gray-400 hover:text-white transition-custom">Home</a></li>
+                        <li><a href="#about-jun" class="text-gray-400 hover:text-white transition-custom">Team</a></li>
+                        <li><a href="#services" class="text-gray-400 hover:text-white transition-custom">Services</a></li>
+                        <li><a href="#about" class="text-gray-400 hover:text-white transition-custom">About Us</a></li>
+                        <li><a href="#contact" class="text-gray-400 hover:text-white transition-custom">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-bold mb-6">Contact Us</h3>
+                    <ul class="space-y-3">
+                        <li class="flex items-start">
+                            <i class="fa fa-envelope text-secondary mt-1 mr-3"></i>
+                            <span class="text-gray-400">info@suppbridge.com</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fa fa-whatsapp text-green-500 mt-1 mr-3"></i>
+                            <span class="text-gray-400">+86 185 7310 3006</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fa fa-map-marker text-secondary mt-1 mr-3"></i>
+                            <span class="text-gray-400">Changsha, China</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-400 text-sm mb-4 md:mb-0">© 2023 SuppBridge. All rights reserved.</p>
+                <div class="flex space-x-6">
+                    <a href="#" class="text-gray-400 hover:text-white text-sm transition-custom">Privacy Policy</a>
+                    <a href="#" class="text-gray-400 hover:text-white text-sm transition-custom">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const menuToggle = document.getElementById('menu-toggle');
+        const mobileMenu = document.getElementById('mobile-menu');
+        
+        menuToggle.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+        
+        // Navbar scroll effect
+        const navbar = document.getElementById('navbar');
+        
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                navbar.classList.add('py-2', 'shadow-md');
+                navbar.classList.remove('py-4', 'shadow-sm');
+            } else {
+                navbar.classList.add('py-4', 'shadow-sm');
+                navbar.classList.remove('py-2', 'shadow-md');
+            }
+        });
+        
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                // Close mobile menu if open
+                if (!mobileMenu.classList.contains('hidden')) {
+                    mobileMenu.classList.add('hidden');
+                }
+                
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body></html>
